@@ -121,4 +121,4 @@ for i in non_vaca_rental_list:
 
 driver.quit()
 
-property_data.to_excel("/Users/grantarbuckle/Desktop/Data Analytics/Datasets/Arrived Homes - All Data.xlsx", engine='xlsxwriter')
+property_data.to_csv("/Users/grantarbuckle/Desktop/Data Analytics/Datasets/Arrived Homes - All Data.csv")
