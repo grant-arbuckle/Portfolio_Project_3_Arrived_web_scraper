@@ -42,9 +42,8 @@ try:
     property_data = pd.read_excel(user_path)
 except:
     property_data = pd.DataFrame(columns= [
-    "Name", "Property Details", "Purchase Price", "Percent Funded", "Share $ Avail.", "Investors", "Mo. Rent", "Rent Ready Date", "Address", "Rental Status", "Div Date", 
-    "1st Div Yield", "Ann. Equity Return", "Ann. Div Yield", "Hypoth. Ann. Return", "Ttl Prop. Amt", "Ttl Shares", "Prop. Leverage", "Timestamp", "IPO Shareprice",
-    "AirDNA Market Grade" #, "Description"
+    "Name", "Property Details", "Timestamp", "Percent Funded", "Address", "Purchase Price", "Ttl Prop. Amt", "Share $ Avail.", "Ttl Shares", "Investors", "Rent Ready Date", "Rental Status",
+    "Mo. Rent", "Div Date", "1st Div Yield", "Ann. Equity Return", "Ann. Div Yield", "Hypoth. Ann. Return", "Prop. Leverage", "IPO Shareprice", "AirDNA Market Grade" #, "Description"
     ])
 
 scraped_count = 0
