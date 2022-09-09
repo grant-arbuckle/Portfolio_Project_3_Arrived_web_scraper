@@ -83,7 +83,7 @@ for i in vaca_hyperlink_list:
 
     # Track progress of data collection
     complete_count += 1
-    print(f"Listings scraped count: {complete_count}   Property scraped: {prop_name}")
+    print(f"Scraped count: {complete_count}   Property scraped: The {i[40:]}")
 
 property_data.to_excel("/Users/grantarbuckle/Desktop/Data Analytics/Datasets/Arrived Homes - Vaca Rentals Only.xlsx", engine='xlsxwriter')
 
