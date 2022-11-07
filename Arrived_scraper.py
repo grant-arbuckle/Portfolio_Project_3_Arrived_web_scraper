@@ -47,7 +47,7 @@ try:
 except:
     property_data = pd.DataFrame(columns= [
     "Name", "Property Details", "Timestamp", "Percent Funded", "Address", "Purchase Price", "Ttl Prop. Amt", "Share $ Avail.", "Ttl Shares", "Investors", "Rent Ready Date", "Rental Status",
-    "Mo. Rent", "Div Date", "1st Div Yield", "Ann. Equity Return", "Ann. Div Yield", "Hypoth. Ann. Return", "Prop. Leverage", "IPO Shareprice", "AirDNA Market Grade" #, "Description"
+    "Mo. Rent", "Div Date", "1st Div Yield", "Ann. Equity Return", "Ann. Div Yield", "1-Yr Return Hist. Avg", "Prop. Leverage", "IPO Shareprice", "AirDNA Market Grade" #, "Description"
     ])
 
 scraped_count = 0
