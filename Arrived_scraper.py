@@ -2,7 +2,7 @@ from importlib.resources import path
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager #ALWAYS USE THIS TO INSTALL CHROME DRIVER FOR FUTURE PROJECTS
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import pandas as pd
 import datetime
