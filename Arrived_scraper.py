@@ -12,7 +12,7 @@ PATH = "/Users/grantarbuckle/chromedriver"
 user_path = "/Users/grantarbuckle/Desktop/Data Analytics/Datasets/Arrived Homes Data.xlsx" # Change as needed
 
 # SERVICE = Service(executable_path=PATH)
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install())) #ALWAYS USE THIS TO INSTALL CHROME DRIVER FOR FUTURE PROJECTS
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.maximize_window()
 driver.get(url)
 
